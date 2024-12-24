@@ -159,8 +159,10 @@ background-color: white;
 visibility: visible;
 transform: scale(100) translateX(2px);
 }
-
-@media (max-width:480px) {
+.heading{
+    font-size: 60px;
+}
+@media (max-width:768px) {
 .heading{
     font-size: 40px !important;
 }
